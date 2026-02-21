@@ -4,6 +4,6 @@ from django.contrib.auth.models import Group, Permission, User
 from django.contrib.auth.models import Group
 from simple_history import register
 
-register(Group)
+register(Group, m2m_fields=['permissions'])
 register(Permission)
-register(User)
+register(User, m2m_fields=['groups', 'user_permissions'])
