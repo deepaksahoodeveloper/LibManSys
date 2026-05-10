@@ -58,7 +58,7 @@ DATABASES = {
         'NAME': 'postgres',
         'USER': 'postgres',
         'PASSWORD': 'Deep@Think#123',
-        'HOST': 'db.auqspuivcvfzzsymeaqg.supabase.co',
+        'HOST': 'db.qgtwfdhhdtthwsscdgut.supabase.co',
         'PORT': '5432',
     }
 }
